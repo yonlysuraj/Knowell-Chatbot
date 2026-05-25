@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & Environment Configuration
+.env
+.env.local
+
+# Local Database & Upload Data Storage
+local_qdrant_db/
+test_local_qdrant_db/
+data/
+
+# Python Caches & Build Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Editor & System Files
+.vscode/
+.idea/
+.gemini/
+.agent/
+.DS_Store
+Thumbs.db
