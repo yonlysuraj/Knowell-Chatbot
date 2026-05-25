@@ -1,4 +1,4 @@
-# 🤖 Antigravity RAG Chatbot
+# 🤖 Knowell
 
 A state-of-the-art **Retrieval-Augmented Generation (RAG)** conversational AI powered by **FastAPI**, **Qdrant vector database**, and **Google Gemini LLMs**. Upload your documents, ask intelligent questions, and get grounded answers with precise source citations.
 
@@ -173,6 +173,8 @@ GEMINI_API_KEY=your_actual_api_key_here
 2. Click "Get API Key" → "Create API Key in new project"
 3. Copy your key and paste it into `.env`
 
+> **Note:** Keep your API key secure and never commit `.env` to version control!
+
 ---
 
 ## 🚀 Quick Start
@@ -234,13 +236,13 @@ Below each response, document pills show the sources used:
 - Verify answer accuracy against source material
 
 ### 5️⃣ Clear Memory
-Click **Wipe Chatbot Memory** to:
+Click **Wipe Knowell Memory** to:
 - Delete all indexed vectors from the vector database
 - Remove all uploaded documents from local cache
 - Start fresh with a clean slate
 
 ### 6️⃣ Conversation Context
-The chatbot maintains chat history automatically:
+Knowell maintains chat history automatically:
 - Messages are sent with prior conversation context
 - The model understands follow-up questions
 - Ask multi-turn questions naturally
